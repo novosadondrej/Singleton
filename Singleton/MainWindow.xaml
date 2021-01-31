@@ -1,0 +1,22 @@
+﻿<Window x:Class="Singleton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Singleton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="316" Width="537">
+    <Grid>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="206,206,0,0" VerticalAlignment="Top" Width="103" Height="62" x:Name="save" Click="Button_SaveClick"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="285,50,0,0" TextWrapping="Wrap" Text="Novosad" VerticalAlignment="Top" Width="219" x:Name="surename" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="35,50,0,0" TextWrapping="Wrap" Text="Ondrej" VerticalAlignment="Top" Width="186" x:Name="name"/>
+        <Label Content="Jméno" HorizontalAlignment="Left" Margin="35,10,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label Content="Příjmení" HorizontalAlignment="Left" Margin="285,18,0,0" VerticalAlignment="Top" Width="73" RenderTransformOrigin="-0.685,1.154"/>
+        <Label Content="Rodné číslo" HorizontalAlignment="Left" Margin="35,108,0,0" VerticalAlignment="Top" Width="105"/>
+        <Label Content="Datum narození" HorizontalAlignment="Left" Margin="285,108,0,0" VerticalAlignment="Top" Width="191" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="35,139,0,0" TextWrapping="Wrap" Text="010201030101" VerticalAlignment="Top" Width="186" x:Name="number"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="285,139,0,0" TextWrapping="Wrap" Text="20012002" VerticalAlignment="Top" Width="219" x:Name="date" Grid.ColumnSpan="2"/>
+        <Button Content="kontrola" HorizontalAlignment="Left" Margin="466,248,0,0" VerticalAlignment="Top" Width="53" Height="27" x:Name="show" Click="Button_ShowClick"/>
+
+    </Grid>
+</Window>
